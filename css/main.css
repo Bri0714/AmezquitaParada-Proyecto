@@ -493,6 +493,14 @@ form{
 
 }
 
+@media (min-width: 1400px){
+    
+    .container, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+    max-width: 1900px;
+    }
+    
+}
+
 @media (min-width: 992px){
     
     .navbar-expand-lg .navbar-collapse{
@@ -503,15 +511,6 @@ form{
     align-content: center;
     flex-direction: row;
     }
-}
-
-
-@media (min-width: 1400px){
-    
-    .container, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
-    max-width: 1900px;
-    }
-    
 }
 
 @media (min-width: 768px){
@@ -531,6 +530,7 @@ form{
     }
     
 }
+
 @media (max-width: 768px){
     .flex-md-row {
     flex-direction: column!important;
@@ -544,7 +544,6 @@ form{
         grid-template-columns: repeat(1,1fr);
     }
 }
-
 /*----------------------------------
 ------------------------------------
 ------------boostrap-----------------
