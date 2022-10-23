@@ -289,7 +289,7 @@ figcaption{
     grid-template-columns: repeat(4,1fr);
     grid-template-rows: 300px 400px;
     margin: 1px;
-    padding: 0px;
+    padding: 55px;
     align-items: center;
     justify-items: center;
 }
@@ -504,7 +504,16 @@ form{
     flex-direction: row;
     }
 }
+@media (min-width: 1024px){
+    
+    .vehiculos {
+        height: 150vh;
+    }
+    .div img {
+        max-width: 200px;
+    }
 
+}
 @media (min-width: 1400px){
     
     .container, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
