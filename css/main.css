@@ -542,6 +542,16 @@ form{
         grid-template-columns: repeat(1,1fr);
     }
 }
+@media (min-width: 768px){
+    
+    .d-flex {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    align-content: center;
+    flex-wrap: nowrap;
+    }
+}
 /*----------------------------------
 ------------------------------------
 ------------boostrap-----------------
